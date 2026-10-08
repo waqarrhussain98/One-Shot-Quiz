@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 9th Biology Chapter 5 Cell Cycle 50 MCQs Test & Solved STBB Exercise</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b0f19;
+      color: #f1f5f9;
+    }
+
+    /* Big Text Mode Styles (Active by Default for Maximum Legibility) */
+    body.big-text-mode #questionText {
+      font-size: 1.85rem !important;
+      line-height: 2.5rem !important;
+      font-weight: 800 !important;
+      letter-spacing: -0.01em;
+    }
+    body.big-text-mode .option-btn {
+      font-size: 1.3rem !important;
+      padding: 1.25rem 1.5rem !important;
+      line-height: 1.9rem !important;
+    }
+    body.big-text-mode .option-badge {
+      width: 2.8rem !important;
+      height: 2.8rem !important;
+      font-size: 1.25rem !important;
+      font-weight: 900 !important;
+    }
+    body.big-text-mode #rationaleText,
+    body.big-text-mode #hintText {
+      font-size: 1.2rem !important;
+      line-height: 1.85rem !important;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+
+    .glass-panel {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* OPPO / small-screen mobile optimization */
+    @media (max-width: 600px) {
+      html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+      body { font-size: 15px; }
+      header { padding: 10px 10px !important; }
+      header > div { gap: 10px !important; }
+      header .flex.items-center.space-x-3:first-child { width: 100%; }
+      header h1 { font-size: 0.98rem !important; line-height: 1.25rem !important; }
+      header p { font-size: 0.68rem !important; line-height: 0.95rem !important; }
+      header .flex.items-center.space-x-3:last-child { width: 100%; display: grid !important; grid-template-columns: 1fr 1fr; gap: 7px !important; }
+      header .flex.items-center.space-x-3:last-child button { width: 100%; min-height: 44px; justify-content: center; padding: 8px 7px !important; font-size: 0.75rem !important; }
+      main { padding: 12px 10px 20px !important; }
+      .glass-panel { border-radius: 18px !important; }
+      main > .glass-panel:first-child { padding: 12px !important; margin-bottom: 12px !important; }
+      main > .glass-panel:first-child > div:first-child { align-items: stretch !important; }
+      main > .glass-panel:first-child > div:first-child > div:last-child { justify-content: space-between; width: 100%; gap: 8px !important; }
+      #qBadge { font-size: 0.72rem !important; padding: 6px 8px !important; }
+      #diffBadge { font-size: 0.62rem !important; padding: 6px 8px !important; }
+      #questionText { font-size: 1.25rem !important; line-height: 1.75rem !important; }
+      body.big-text-mode #questionText { font-size: 1.35rem !important; line-height: 1.8rem !important; }
+      body.big-text-mode .option-btn { font-size: 1rem !important; line-height: 1.45rem !important; padding: 12px 11px !important; }
+      .option-btn { min-height: 58px; padding: 12px 11px !important; border-radius: 14px !important; }
+      .option-badge { width: 34px !important; height: 34px !important; font-size: 0.95rem !important; }
+      main > .glass-panel:nth-of-type(2) { padding: 16px 12px !important; margin-bottom: 12px !important; }
+      #feedbackContainer { padding: 14px !important; margin-top: 16px !important; }
+      #hintContainer { padding: 12px !important; margin-top: 12px !important; }
+      main > div:last-child { display: grid !important; grid-template-columns: 1fr 1fr; gap: 8px !important; }
+      main > div:last-child button { min-height: 46px; justify-content: center; padding: 10px 8px !important; font-size: 0.8rem !important; }
+      main > div:last-child > div { grid-column: 1 / -1; grid-row: 1; justify-content: center; }
+      main > div:last-child > #prevBtn { grid-column: 1; grid-row: 2; }
+      main > div:last-child > #nextBtn { grid-column: 2; grid-row: 2; }
+      #gridModal, #exerciseModal, #resultsModal { padding: 8px !important; }
+      #gridModal > div, #exerciseModal > div, #resultsModal > div { max-height: 94vh; border-radius: 18px !important; padding: 14px !important; }
+      #gridContainer { grid-template-columns: repeat(5, minmax(0,1fr)) !important; gap: 6px !important; }
+      footer { padding: 10px !important; font-size: 0.62rem !important; line-height: 0.9rem; }
+    }
+
+    @media (max-width: 380px) {
+      header h1 { font-size: 0.88rem !important; }
+      #questionText, body.big-text-mode #questionText { font-size: 1.18rem !important; line-height: 1.6rem !important; }
+      body.big-text-mode .option-btn, .option-btn { font-size: 0.92rem !important; }
+      header .flex.items-center.space-x-3:last-child button { font-size: 0.68rem !important; }
+    }
+  </style>
+</head>
+<body class="big-text-mode min-h-screen flex flex-col justify-between selection:bg-emerald-500 selection:text-slate-900">
+
+  <!-- Top Navigation Header -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3 sm:px-8 shadow-xl">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Title -->
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-emerald-500/20">
+          <i class="fa-solid fa-microscope"></i>
+        </div>
+        <div>
+          <h1 class="text-lg sm:text-xl font-extrabold text-white tracking-tight leading-none">
+            STBB Class 9th Biology <span class="text-emerald-400">Ch 5: Cell Cycle</span>
+          </h1>
+          <p class="text-xs text-slate-400 font-medium mt-1">50 Sindh Textbook Board (STBB Jamshoro) Practice MCQs</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Toolbar -->
+      <div class="flex items-center space-x-2 sm:space-x-3 flex-wrap">
+        <!-- Big Font Toggle -->
+        <button id="fontSizeBtn" onclick="toggleFontSize()" class="px-3.5 py-2 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-black rounded-xl text-sm flex items-center gap-2 transition shadow-md shadow-emerald-500/20" title="Toggle Large Font Mode">
+          <i class="fa-solid fa-text-height text-base"></i>
+          <span id="fontBtnText">Big Text: ON</span>
+        </button>
+
+        <!-- Voice Read Aloud Toggle -->
+        <button id="voiceBtn" onclick="toggleVoice()" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 rounded-xl text-sm font-bold flex items-center gap-2 transition" title="Toggle MCQ Read Aloud Voice">
+          <i id="voiceIcon" class="fa-solid fa-volume-xmark text-slate-400"></i>
+          <span id="voiceBtnText">Voice: OFF</span>
+        </button>
+
+        <!-- Solved Exercise Modal Trigger -->
+        <button onclick="toggleExerciseModal()" class="px-3.5 py-2 bg-indigo-600/30 hover:bg-indigo-600/50 text-indigo-200 border border-indigo-500/40 rounded-xl text-sm font-bold flex items-center gap-2 transition">
+          <i class="fa-solid fa-book-bookmark text-indigo-400"></i>
+          <span>Solved Exercise</span>
+        </button>
+
+        <!-- Restart Test -->
+        <button onclick="restartQuiz()" class="p-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-rose-400 rounded-xl border border-slate-700 transition" title="Restart Quiz">
+          <i class="fa-solid fa-rotate-right"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 sm:py-8 flex-grow">
+    
+    <!-- Status & Progress Dashboard -->
+    <div class="glass-panel p-4 sm:p-6 rounded-2xl mb-6 shadow-2xl">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
+        
+        <!-- Question Badge & Difficulty -->
+        <div class="flex items-center gap-3">
+          <span id="qBadge" class="px-3.5 py-1.5 bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-extrabold text-sm rounded-lg">
+            Question 1 / 50
+          </span>
+          <span id="diffBadge" class="px-3 py-1 bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 font-bold text-xs rounded-lg uppercase tracking-wider">
+            Basic
+          </span>
+        </div>
+
+        <!-- Timer & Score Counters -->
+        <div class="flex items-center space-x-6">
+          <div class="flex items-center space-x-3 text-slate-300 font-semibold text-sm sm:text-base">
+            <!-- Circular Progress SVG Ring Timer -->
+            <div class="relative w-12 h-12 flex items-center justify-center shrink-0">
+              <svg class="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                <path
+                  class="text-slate-800"
+                  stroke-width="3"
+                  stroke="currentColor"
+                  fill="none"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path
+                  id="timerRing"
+                  class="text-amber-400 transition-all duration-1000 ease-linear"
+                  stroke-width="3.5"
+                  stroke-dasharray="100, 100"
+                  stroke-dashoffset="0"
+                  stroke-linecap="round"
+                  stroke="currentColor"
+                  fill="none"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+              </svg>
+              <span id="timerDisplay" class="absolute font-mono text-xs sm:text-sm font-extrabold text-amber-400">40s</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-xs text-slate-400">Timer</span>
+              <span id="timerStatus" class="text-xs font-bold text-amber-400">Active</span>
+            </div>
+          </div>
+          <div class="flex items-center space-x-2 text-slate-300 font-semibold text-sm sm:text-base">
+            <i class="fa-solid fa-trophy text-emerald-400 text-lg"></i>
+            <span>Score:</span>
+            <span id="scoreDisplay" class="font-bold text-emerald-400 text-xl">0 / 50</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Linear Progress Bar -->
+      <div class="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
+        <div id="progressBar" class="bg-gradient-to-r from-emerald-500 to-teal-400 h-full w-0 transition-all duration-300"></div>
+      </div>
+    </div>
+
+    <!-- Question Card -->
+    <div class="glass-panel p-6 sm:p-8 rounded-3xl shadow-2xl mb-6 relative overflow-hidden">
+      
+      <!-- Question Prompt Text -->
+      <div class="mb-8">
+        <h2 id="questionText" class="text-2xl sm:text-3xl font-extrabold text-white leading-relaxed tracking-tight">
+          Loading Question...
+        </h2>
+      </div>
+
+      <!-- Multiple Choice Options -->
+      <div id="optionsContainer" class="grid grid-cols-1 gap-4">
+        <!-- Options injected dynamically via JS -->
+      </div>
+
+      <!-- Feedback & Explanation Area -->
+      <div id="feedbackContainer" class="mt-8 hidden p-6 rounded-2xl border transition-all">
+        <div id="feedbackHeader" class="flex items-center space-x-3 mb-3 text-xl font-extrabold">
+          <!-- Icon + Header Text -->
+        </div>
+        <div class="text-slate-200 leading-relaxed font-medium">
+          <strong class="text-emerald-400 block mb-1">Concept Explanation:</strong>
+          <p id="rationaleText" class="text-base sm:text-lg">Rationale details...</p>
+        </div>
+      </div>
+
+      <!-- Hint Box (Hidden by default) -->
+      <div id="hintContainer" class="mt-6 hidden p-5 bg-amber-500/10 border border-amber-500/30 rounded-2xl text-amber-200">
+        <div class="flex items-center space-x-2 font-bold mb-1">
+          <i class="fa-solid fa-lightbulb text-amber-400"></i>
+          <span>STBB Chapter 5 Study Hint:</span>
+        </div>
+        <p id="hintText" class="text-sm sm:text-base font-medium text-amber-100/90"></p>
+      </div>
+
+    </div>
+
+    <!-- Navigation Control Toolbar -->
+    <div class="flex items-center justify-between gap-3">
+      <button id="prevBtn" onclick="prevQuestion()" class="px-5 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-extrabold rounded-2xl border border-slate-700 transition flex items-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed">
+        <i class="fa-solid fa-arrow-left"></i> Previous
+      </button>
+
+      <div class="flex items-center space-x-2">
+        <button onclick="toggleHint()" class="px-4 py-3 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-bold rounded-2xl border border-amber-500/30 transition flex items-center gap-2" title="Toggle Hint">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span class="hidden sm:inline">Hint</span>
+        </button>
+        <button onclick="openGridModal()" class="px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-2xl border border-slate-700 transition flex items-center gap-2" title="Question Map">
+          <i class="fa-solid fa-grip"></i>
+          <span class="hidden sm:inline">Question Grid</span>
+        </button>
+      </div>
+
+      <button id="nextBtn" onclick="nextQuestion()" class="px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-black rounded-2xl shadow-lg shadow-emerald-500/20 transition flex items-center gap-2">
+        Next <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+  </main>
+
+  <!-- Question Grid Modal -->
+  <div id="gridModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-2xl w-full p-6 shadow-2xl max-h-[90vh] flex flex-col">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+        <h3 class="text-xl font-extrabold text-white flex items-center gap-2">
+          <i class="fa-solid fa-grip text-emerald-400"></i> Question Navigator (1 - 50)
+        </h3>
+        <button onclick="closeGridModal()" class="text-slate-400 hover:text-white p-2 text-xl">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="gridContainer" class="grid grid-cols-5 sm:grid-cols-10 gap-2.5 py-6 overflow-y-auto flex-grow">
+        <!-- 50 Buttons injected dynamically -->
+      </div>
+      <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs sm:text-sm text-slate-400 font-medium">
+        <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span> Correct</div>
+        <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-rose-500 inline-block"></span> Incorrect</div>
+        <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-slate-700 inline-block"></span> Unanswered</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Solved Exercise Textbook Modal -->
+  <div id="exerciseModal" class="fixed inset-0 bg-slate-950/85 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-4xl w-full p-6 sm:p-8 shadow-2xl max-h-[90vh] flex flex-col">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+        <div>
+          <h3 class="text-xl sm:text-2xl font-extrabold text-white flex items-center gap-3">
+            <i class="fa-solid fa-book-open-reader text-indigo-400"></i> Solved STBB Review Questions (Class 9th)
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-400 mt-1">Class 9th Biology Chapter 5 Sindh Textbook Board (STBB) Solutions</p>
+        </div>
+        <button onclick="toggleExerciseModal()" class="text-slate-400 hover:text-white p-2 text-2xl">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div id="exerciseList" class="py-6 overflow-y-auto space-y-6 flex-grow pr-2">
+        <!-- Solved exercise items injected JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Test Results Modal -->
+  <div id="resultsModal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-lg z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-xl w-full p-8 shadow-2xl text-center">
+      <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-slate-950 text-3xl font-black mb-4 shadow-xl shadow-emerald-500/30">
+        <i class="fa-solid fa-award"></i>
+      </div>
+      <h2 class="text-3xl font-black text-white mb-2">Test Completed!</h2>
+      <p class="text-slate-400 text-sm mb-6">STBB Class 9th Biology — Chapter 5: Cell Cycle Performance</p>
+
+      <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800 mb-6">
+        <div class="text-5xl font-black text-emerald-400 mb-2" id="finalScore">0 / 50</div>
+        <div class="text-slate-300 font-bold text-lg" id="finalPercentage">0%</div>
+        <p class="text-xs text-slate-500 mt-2" id="finalVerdict">Keep practicing to master all Class 9 Biology topics!</p>
+      </div>
+
+      <div class="flex items-center justify-center gap-4">
+        <button onclick="restartQuiz()" class="px-6 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-black rounded-xl transition shadow-lg shadow-emerald-500/20">
+          Try Again
+        </button>
+        <button onclick="closeResultsModal()" class="px-6 py-3.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-xl border border-slate-700 transition">
+          Review Answers
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 border-t border-slate-800 py-4 text-center text-xs text-slate-500">
+    <p>STBB Class 9th Biology — Chapter 5: Cell Cycle Interactive Practice Application (Sindh Textbook Board)</p>
+  </footer>
+
+  <script>
+    let audioCtx = null;
+
+    // Ensure AudioContext is ready for automatic timer sound on user interaction
+    function initAudioOnUserInteraction() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx && audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+    document.addEventListener('click', initAudioOnUserInteraction, { once: false });
+    document.addEventListener('touchstart', initAudioOnUserInteraction, { once: false });
+
+    // Web Audio API Ticking Bomb Timer Sound (Fully Automatic)
+    function playTickSound(secondsLeft) {
+      try {
+        if (!audioCtx) {
+          audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        if (audioCtx.state === 'suspended') {
+          audioCtx.resume();
+        }
+
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        // Pitch accelerates urgently as the 0-second mark approaches
+        const isUrgent = secondsLeft <= 5;
+        osc.type = isUrgent ? 'sawtooth' : 'triangle';
+        osc.frequency.setValueAtTime(isUrgent ? 980 : 520 + (15 - secondsLeft) * 30, audioCtx.currentTime);
+
+        gain.gain.setValueAtTime(isUrgent ? 0.35 : 0.20, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.12);
+
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.12);
+      } catch (e) {
+        console.log('Audio error:', e);
+      }
+    }
+
+    // 50 Class 9th Biology - Chapter 5 (Cell Cycle) MCQs
+    const questions = [
+      // Section 1: Textbook Exercise & Core Fundamentals (1-10)
+      {
+        id: 1,
+        question: "In which phase of the cell cycle does the cell duplicate its DNA?",
+        options: ["G1 Phase", "S Phase", "G2 Phase", "M Phase"],
+        correct: 1,
+        rationale: "During the S (Synthesis) phase of Interphase, the cell replicates its DNA so each chromosome forms two identical sister chromatids.",
+        hint: "'S' stands for Synthesis of DNA.",
+        level: "Basic"
+      },
+      {
+        id: 2,
+        question: "The non-dividing stage of the cell cycle where cells temporarily or permanently stop dividing is called:",
+        options: ["G0 Phase", "G1 Phase", "G2 Phase", "Prophase"],
+        correct: 0,
+        rationale: "In the G0 (Quiescent) phase, cells are metabolically active but do not divide unless stimulated (e.g., nerve cells or liver cells).",
+        hint: "It is called the G-zero phase.",
+        level: "Basic"
+      },
+      {
+        id: 3,
+        question: "During which phase of mitosis do sister chromatids separate and move to opposite poles?",
+        options: ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+        correct: 2,
+        rationale: "In Anaphase, spindle fibers shorten, centromeres divide, and sister chromatids are pulled apart to opposite ends of the cell.",
+        hint: "Ana means 'apart' or 'away'.",
+        level: "Basic"
+      },
+      {
+        id: 4,
+        question: "Crossing over, the exchange of genetic material between homologous chromosomes, occurs during:",
+        options: ["Mitotic Prophase", "Prophase I of Meiosis", "Metaphase II", "Anaphase I"],
+        correct: 1,
+        rationale: "Crossing over takes place in Prophase I of Meiosis I, creating unique genetic combinations in gametes.",
+        hint: "Occurs during the first prophase of reduction division.",
+        level: "Medium"
+      },
+      {
+        id: 5,
+        question: "The central point that connects two sister chromatids together is called the:",
+        options: ["Centrosome", "Centromere", "Centriole", "Chromatin"],
+        correct: 1,
+        rationale: "The centromere is the specific DNA region holding two sister chromatids together.",
+        hint: "Center region linking chromatids.",
+        level: "Basic"
+      },
+      {
+        id: 6,
+        question: "Programmed, orderly cell death designed for tissue growth and development is called:",
+        options: ["Necrosis", "Apoptosis", "Autolysis", "Mitosis"],
+        correct: 1,
+        rationale: "Apoptosis is suicide of unwanted cells (e.g., loss of tail in tadpoles or digits formation in hands during embryo development).",
+        hint: "Cellular programmed suicide.",
+        level: "Basic"
+      },
+      {
+        id: 7,
+        question: "Plant cells perform cytokinesis by forming a middle structure called a:",
+        options: ["Cleavage Furrow", "Cell Plate (Phragmoplast)", "Contractile Ring", "Spindle Pole"],
+        correct: 1,
+        rationale: "Due to rigid cell walls, plant cells form a cell plate (phragmoplast) that grows from center to outside.",
+        hint: "Forms inside-out inside plant cell walls.",
+        level: "Basic"
+      },
+      {
+        id: 8,
+        question: "The pairing of homologous chromosomes during Meiosis is called:",
+        options: ["Synapsis", "Crossing Over", "Nondisjunction", "Karyokinesis"],
+        correct: 0,
+        rationale: "Synapsis is the pairing up of homologous maternal and paternal chromosomes side-by-side in Prophase I.",
+        hint: "Syn- means together.",
+        level: "Medium"
+      },
+      {
+        id: 9,
+        question: "Uncontrolled mitotic cell division leads to the formation of abnormal masses called:",
+        options: ["Tissues", "Tumors (Cancer)", "Zygotes", "Spores"],
+        correct: 1,
+        rationale: "When cell cycle control mechanisms fail, cells divide continuously without control, forming tumors.",
+        hint: "Abnormal cell growth causing cancer.",
+        level: "Basic"
+      },
+      {
+        id: 10,
+        question: "Which type of cell division reduces the chromosome number in half in daughter cells?",
+        options: ["Mitosis", "Meiosis", "Binary Fission", "Budding"],
+        correct: 1,
+        rationale: "Meiosis is a reduction division that produces 4 haploid (n) daughter cells from one diploid (2n) cell.",
+        hint: "Produces haploid gametes.",
+        level: "Basic"
+      },
+
+      {
+        id: 11,
+        question: "How much time of the entire cell cycle is spent in Interphase approximately?",
+        options: ["10%", "50%", "90%", "25%"],
+        correct: 2,
+        rationale: "Interphase is the longest period of the cell cycle, taking up about 90% of the total cycle time.",
+        hint: "It takes almost the full cycle duration.",
+        level: "Basic"
+      },
+      {
+        id: 12,
+        question: "During which sub-phase of Interphase does the cell increase its supply of proteins and size before DNA synthesis?",
+        options: ["G1 Phase", "S Phase", "G2 Phase", "M Phase"],
+        correct: 0,
+        rationale: "In G1 (Gap 1) phase, the cell grows, synthesizes proteins and enzymes, and increases organelle count.",
+        hint: "First Growth or Gap phase.",
+        level: "Basic"
+      },
+      {
+        id: 13,
+        question: "The period of Interphase where proteins needed for spindle fiber formation are synthesized is:",
+        options: ["G1 Phase", "S Phase", "G2 Phase", "G0 Phase"],
+        correct: 2,
+        rationale: "In G2 (Gap 2) phase, the cell produces tubulin proteins required for making mitotic spindle apparatus.",
+        hint: "Phase right before Mitosis starts.",
+        level: "Medium"
+      },
+      {
+        id: 14,
+        question: "Human body cells (somatic cells) have how many total chromosomes?",
+        options: ["23", "46", "92", "12"],
+        correct: 1,
+        rationale: "Human diploid somatic cells have 46 chromosomes (23 pairs).",
+        hint: "23 pairs equal this total.",
+        level: "Basic"
+      },
+      {
+        id: 15,
+        question: "Chromosomes align along the center equator of the cell during which stage of mitosis?",
+        options: ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+        correct: 1,
+        rationale: "In Metaphase, chromosomes attach to spindle fibers and line up along the metaphase plate (equator).",
+        hint: "M for Metaphase = M for Middle.",
+        level: "Basic"
+      },
+      {
+        id: 16,
+        question: "In animal cells, centrioles duplicate and move toward opposite poles during:",
+        options: ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+        correct: 0,
+        rationale: "During Prophase, chromatin condenses into visible chromosomes, nuclear envelope disappears, and centrioles migrate to opposite poles.",
+        hint: "The very first stage of nuclear division.",
+        level: "Basic"
+      },
+      {
+        id: 17,
+        question: "Nuclear membrane and nucleolus disappear during which phase of mitosis?",
+        options: ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+        correct: 0,
+        rationale: "In Prophase, the nuclear envelope breaks down and nucleolus dissolves to allow spindle attachment.",
+        hint: "Initial phase where nuclear boundary dissolves.",
+        level: "Basic"
+      },
+      {
+        id: 18,
+        question: "Telophase is often considered the exact reverse of which stage?",
+        options: ["Prophase", "Metaphase", "Anaphase", "Interphase"],
+        correct: 0,
+        rationale: "Telophase reverses prophase: nuclear envelopes reform, nucleoli reappear, and chromosomes uncoil back into loose chromatin.",
+        hint: "Reverses what was done in the first stage.",
+        level: "Basic"
+      },
+      {
+        id: 19,
+        question: "The division of the cell nucleus is technically termed:",
+        options: ["Cytokinesis", "Karyokinesis", "Synapsis", "Apoptosis"],
+        correct: 1,
+        rationale: "Karyokinesis refers specifically to division of nucleus, whereas cytokinesis is cytoplasm division.",
+        hint: "Karyo- means nucleus.",
+        level: "Basic"
+      },
+      {
+        id: 20,
+        question: "Division of the cell cytoplasm into two separate cells is known as:",
+        options: ["Karyokinesis", "Cytokinesis", "Interkinesis", "Metastasis"],
+        correct: 1,
+        rationale: "Cytokinesis is the division of cytoplasm that completes the cell splitting.",
+        hint: "Cyto- means cell/cytoplasm.",
+        level: "Basic"
+      },
+      {
+        id: 21,
+        question: "Animal cell cytokinesis occurs through the formation of a:",
+        options: ["Cell Plate", "Cleavage Furrow", "Phragmoplast", "Cell Wall"],
+        correct: 1,
+        rationale: "A ring of microfilaments pinches inward at the center of animal cell forming a cleavage furrow.",
+        hint: "Pinching inward action.",
+        level: "Basic"
+      },
+      {
+        id: 22,
+        question: "Which type of cells in adult humans permanently remain in the G0 non-dividing phase?",
+        options: ["Skin epithelial cells", "Nerve cells (Neurons)", "Liver cells", "Blood stem cells"],
+        correct: 1,
+        rationale: "Mature nerve cells (neurons) and cardiac muscle cells enter G0 permanently and cannot divide.",
+        hint: "Cells found in the brain and nervous system.",
+        level: "Basic"
+      },
+      {
+        id: 23,
+        question: "Mitosis is crucial for organisms because it enables:",
+        options: ["Growth and repair of body tissues", "Formation of sperm and egg gametes", "Genetic variation", "Halving chromosome number"],
+        correct: 0,
+        rationale: "Mitosis produces identical somatic cells essential for body growth, wound healing, and cell replacement.",
+        hint: "Body growth and healing wound tissue.",
+        level: "Basic"
+      },
+      {
+        id: 24,
+        question: "Starfish regenerate lost arms and sea anemones reproduce asexually through:",
+        options: ["Meiosis", "Mitosis", "Fertilization", "Apoptosis"],
+        correct: 1,
+        rationale: "Asexual reproduction and tissue regeneration rely entirely on mitotic cell division.",
+        hint: "Same division used for healing.",
+        level: "Medium"
+      },
+      {
+        id: 25,
+        question: "A diploid human cell undergoing mitosis produces daughter cells each containing:",
+        options: ["23 chromosomes", "46 chromosomes", "92 chromosomes", "12 chromosomes"],
+        correct: 1,
+        rationale: "Mitosis is equational division, maintaining the original chromosome number (46 in humans).",
+        hint: "The daughter cells have identical number as parent.",
+        level: "Basic"
+      },
+
+      {
+        id: 26,
+        question: "Who first discovered and described the process of Meiosis in 1876?",
+        options: ["Walther Flemming", "Oscar Hertwig", "Robert Hooke", "Louis Pasteur"],
+        correct: 1,
+        rationale: "German biologist Oscar Hertwig first discovered meiosis in sea urchin eggs in 1876.",
+        hint: "German scientist studying sea urchin eggs.",
+        level: "Medium"
+      },
+      {
+        id: 27,
+        question: "Walther Flemming discovered which process of cell division in 1882?",
+        options: ["Meiosis", "Mitosis", "Apoptosis", "Necrosis"],
+        correct: 1,
+        rationale: "Walther Flemming observed and named Mitosis in 1882 while studying salamander larvae cells.",
+        hint: "Equational cell division.",
+        level: "Medium"
+      },
+      {
+        id: 28,
+        question: "A human egg or sperm cell (gamete) contains how many chromosomes?",
+        options: ["23 chromosomes (haploid)", "46 chromosomes (diploid)", "92 chromosomes", "12 chromosomes"],
+        correct: 0,
+        rationale: "Gametes are haploid (n = 23) so that fertilization restores diploid 2n = 46 in the offspring.",
+        hint: "Half the number of body cells.",
+        level: "Basic"
+      },
+      {
+        id: 29,
+        question: "Two similar chromosomes in a pair (one from mother, one from father) are called:",
+        options: ["Sister chromatids", "Homologous chromosomes", "Centrosomes", "Non-homologous chromosomes"],
+        correct: 1,
+        rationale: "Homologous chromosomes carry genes for the same traits at matching locus locations.",
+        hint: "Homo- means same/matching.",
+        level: "Basic"
+      },
+      {
+        id: 30,
+        question: "Pairing of homologous chromosomes forms a group of 4 chromatids called a:",
+        options: ["Tetrad (Bivalent)", "Monad", "Centromere", "Triad"],
+        correct: 0,
+        rationale: "When two homologous chromosomes pair during synapsis, the 4 chromatids together form a tetrad.",
+        hint: "Tetra- means four.",
+        level: "Medium"
+      },
+      {
+        id: 31,
+        question: "The points where non-sister chromatids touch and cross over each other are called:",
+        options: ["Centromeres", "Chiasmata", "Spindle poles", "Kinetochores"],
+        correct: 1,
+        rationale: "Chiasmata (singular: chiasma) are the physical connection points where genetic crossing over happens.",
+        hint: "X-shaped crossover connections.",
+        level: "Medium"
+      },
+      {
+        id: 32,
+        question: "Which phase of Meiosis reduces the chromosome number from diploid (2n) to haploid (1n)?",
+        options: ["Meiosis I", "Meiosis II", "Mitosis", "Interkinesis"],
+        correct: 0,
+        rationale: "Meiosis I is the reductional division where homologous chromosome pairs separate.",
+        hint: "The very first meiotic division.",
+        level: "Basic"
+      },
+      {
+        id: 33,
+        question: "Meiosis II is very similar in mechanism to which type of division?",
+        options: ["Mitosis", "Meiosis I", "Binary Fission", "Budding"],
+        correct: 0,
+        rationale: "Meiosis II separates sister chromatids without changing chromosome number, identical to mitosis.",
+        hint: "Equational division that separates chromatids.",
+        level: "Basic"
+      },
+      {
+        id: 34,
+        question: "The short resting stage between Meiosis I and Meiosis II is called:",
+        options: ["Interphase S", "Interkinesis", "G1 Phase", "Prophase II"],
+        correct: 1,
+        rationale: "Interkinesis is a brief resting period between Meiosis I and II; notably, NO DNA replication occurs here.",
+        hint: "Resting phase between two meiotic steps.",
+        level: "Medium"
+      },
+      {
+        id: 35,
+        question: "Nondisjunction is defined as the failure of:",
+        options: ["DNA to replicate", "Chromosomes or chromatids to separate during division", "Nuclear membrane to dissolve", "Cell plate to form"],
+        correct: 1,
+        rationale: "Nondisjunction happens when chromosomes fail to split properly, yielding abnormal gamete chromosome counts.",
+        hint: "Failure in chromosome separation.",
+        level: "Medium"
+      },
+      {
+        id: 36,
+        question: "Down Syndrome (Trisomy 21) is a genetic condition caused by nondisjunction of chromosome number:",
+        options: ["21", "18", "13", "23"],
+        correct: 0,
+        rationale: "An extra copy of chromosome 21 (total 47 chromosomes) causes Down Syndrome.",
+        hint: "Match the syndrome's chromosome number 21.",
+        level: "Medium"
+      },
+      {
+        id: 37,
+        question: "A tumor that remains restricted to its original site without invading other tissues is termed:",
+        options: ["Malignant Tumor", "Benign Tumor", "Metastatic Tumor", "Necrotic tissue"],
+        correct: 1,
+        rationale: "Benign tumors are localized, non-cancerous growth masses that do not spread.",
+        hint: "Harmless/localized mass.",
+        level: "Basic"
+      },
+      {
+        id: 38,
+        question: "Cancerous tumors that invade adjacent healthy tissues and can spread throughout the body are called:",
+        options: ["Benign Tumors", "Malignant Tumors", "Cysts", "Polyps"],
+        correct: 1,
+        rationale: "Malignant tumors are cancerous, invasive, and disrupt organ functions.",
+        hint: "Harmful and invasive cancer tumors.",
+        level: "Basic"
+      },
+      {
+        id: 39,
+        question: "The process by which malignant cancer cells spread from their primary location to other parts of the body is called:",
+        options: ["Metastasis", "Metaphase", "Synapsis", "Apoptosis"],
+        correct: 0,
+        rationale: "Metastasis occurs when cancer cells travel via blood or lymph vessels to set up new tumors elsewhere.",
+        hint: "Spreading of cancer across the body.",
+        level: "Medium"
+      },
+      {
+        id: 40,
+        question: "Crossing over during Meiosis is essential for living species because it generates:",
+        options: ["Exact identical clones", "Genetic variation among offspring", "Cell wall growth", "Loss of chromosomes"],
+        correct: 1,
+        rationale: "Crossing over shuffles alleles, creating genetic diversity crucial for adaptation and evolution.",
+        hint: "Creates unique traits in children.",
+        level: "Basic"
+      },
+
+      {
+        id: 41,
+        question: "In humans, the webbed tissue between developing fingers and toes in embryos is removed by:",
+        options: ["Necrosis", "Apoptosis", "Mitosis", "Nondisjunction"],
+        correct: 1,
+        rationale: "Apoptosis deletes webbing tissue between embryonic digits, giving rise to separate fingers and toes.",
+        hint: "Controlled cell destruction.",
+        level: "Basic"
+      },
+      {
+        id: 42,
+        question: "Accidental cell death caused by severe injury, infections, or toxins is called:",
+        options: ["Apoptosis", "Necrosis", "Mitosis", "Synapsis"],
+        correct: 1,
+        rationale: "Necrosis is unprogrammed cell injury death leading to swelling, cell rupture, and inflammation.",
+        hint: "Uncontrolled accidental death.",
+        level: "Basic"
+      },
+      {
+        id: 43,
+        question: "During Necrosis, damaged cells swell and burst, releasing harmful intracellular contents that cause:",
+        options: ["Inflammation in surrounding tissue", "New bone growth", "DNA synthesis", "Meiotic division"],
+        correct: 0,
+        rationale: "Cell rupture in necrosis releases cellular enzymes that damage neighboring tissue and trigger inflammation.",
+        hint: "Redness, swelling, and tissue pain.",
+        level: "Medium"
+      },
+      {
+        id: 44,
+        question: "Snake venom or spider bite toxins damage tissue rapidly by causing widespread:",
+        options: ["Apoptosis", "Necrosis", "Mitosis", "Cytokinesis"],
+        correct: 1,
+        rationale: "Poisons and venom enzymes destroy cell membranes directly, causing tissue necrosis (gangrene/mortification).",
+        hint: "Accidental toxic cell damage.",
+        level: "Medium"
+      },
+      {
+        id: 45,
+        question: "How many daughter cells are produced at the end of Meiosis from a single mother cell?",
+        options: ["2 identical cells", "4 haploid cells", "8 diploid cells", "1 haploid cell"],
+        correct: 1,
+        rationale: "One diploid mother cell undergoes two successive meiotic divisions (Meiosis I & II) to yield 4 haploid cells.",
+        hint: "Double division produces 4 cells.",
+        level: "Basic"
+      },
+      {
+        id: 46,
+        question: "If a plant cell has 12 chromosomes (2n = 12), how many chromosomes will be in its egg cell?",
+        options: ["24", "12", "6", "3"],
+        correct: 2,
+        rationale: "Egg cells are haploid (n); n = 12 / 2 = 6 chromosomes.",
+        hint: "Divide diploid number by 2.",
+        level: "Basic"
+      },
+      {
+        id: 47,
+        question: "Condensation of chromatin into distinct thick chromosomes takes place during:",
+        options: ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+        correct: 0,
+        rationale: "In Prophase, loose chromatin threads coil tightly to form visible chromosomes.",
+        hint: "Very first phase of nuclear division.",
+        level: "Basic"
+      },
+      {
+        id: 48,
+        question: "The spindle fibers in animal cells attach to which specific structure on centromeres?",
+        options: ["Kinetochore protein", "Nucleolus", "Nuclear membrane", "Cell wall"],
+        correct: 0,
+        rationale: "Kinetochores are complex protein patches at centromeres where spindle fiber microtubules anchor.",
+        hint: "Protein anchor on centromere.",
+        level: "Medium"
+      },
+      {
+        id: 49,
+        question: "Plant cells lack centrioles. How do they form spindle fibers during cell division?",
+        options: ["From cell wall", "From tubulin protein clusters in cytoplasm near nuclear region", "They cannot form spindle fibers", "From chloroplasts"],
+        correct: 1,
+        rationale: "Plant cells organize spindle fibers directly from microtubule organizing regions in cytoplasm despite lacking centrioles.",
+        hint: "Organized from cytoplasm tubulin proteins.",
+        level: "Medium"
+      },
+      {
+        id: 50,
+        question: "During which phase of Meiosis do sister chromatids separate into individual daughter chromosomes?",
+        options: ["Anaphase I", "Anaphase II", "Metaphase I", "Prophase I"],
+        correct: 1,
+        rationale: "Anaphase I separates homologous chromosome pairs, whereas Anaphase II splits sister chromatids.",
+        hint: "Second anaphase splits chromatids.",
+        level: "Medium"
+      }
+    ];
+
+    // Solved Review Questions (Board Textbook Exercise Format)
+    const solvedExerciseData = [
+      {
+        num: 1,
+        q: "What is Interphase and what are its three main sub-phases?",
+        ans: "Interphase is the preparation phase of the cell cycle taking up about 90% of total cycle time. It consists of three sub-phases: (1) G1 Phase (First growth and protein synthesis), (2) S Phase (DNA synthesis and replication), and (3) G2 Phase (Preparation for mitosis and tubulin synthesis)."
+      },
+      {
+        num: 2,
+        q: "Differentiate between Mitosis and Meiosis in Class 9 Biology.",
+        ans: "Mitosis occurs in somatic (body) cells, produces 2 diploid (2n) daughter cells identical to the parent, and is used for growth and tissue repair. Meiosis occurs in germ line cells, produces 4 haploid (1n) genetically distinct gametes, and maintains chromosome numbers across generations."
+      },
+      {
+        num: 3,
+        q: "Define Crossing Over and explain its biological importance.",
+        ans: "Crossing over is the exchange of non-sister chromatid segments between homologous chromosomes during Prophase I of Meiosis. Its importance is that it creates new allele combinations and genetic variation in offspring."
+      },
+      {
+        num: 4,
+        q: "Compare Apoptosis and Necrosis with examples.",
+        ans: "Apoptosis is programmed cell death (e.g., removal of webbing between human digits during embryonic growth). Necrosis is accidental cell death caused by physical injury, toxins, or infections, which causes cell swelling and tissue inflammation (e.g., snake venom tissue damage)."
+      },
+      {
+        num: 5,
+        q: "How does Cytokinesis in Plant Cells differ from Animal Cells?",
+        ans: "Animal cell cytokinesis forms a cleavage furrow where a microfilament ring pinches the plasma membrane inward from outside. Plant cell cytokinesis forms a cell plate (phragmoplast) in the center that expands outward to form new cell walls."
+      }
+    ];
+
+    let currentIndex = 0;
+    let score = 0;
+    let userAnswers = new Array(questions.length).fill(null);
+    let timer = null;
+    let timeLeft = 40;
+    let isBigFont = true; // Large text active by default
+    let isVoiceEnabled = false; // Voice Read Aloud state
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderQuestion();
+      renderGrid();
+      renderSolvedExercise();
+    });
+
+    function toggleVoice() {
+      isVoiceEnabled = !isVoiceEnabled;
+      const btnText = document.getElementById('voiceBtnText');
+      const btnIcon = document.getElementById('voiceIcon');
+      const voiceBtn = document.getElementById('voiceBtn');
+
+      if (isVoiceEnabled) {
+        if (btnText) btnText.textContent = "Voice: ON";
+        if (btnIcon) btnIcon.className = "fa-solid fa-volume-high text-emerald-400";
+        if (voiceBtn) voiceBtn.className = "px-3.5 py-2 bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 rounded-xl text-sm font-bold flex items-center gap-2 transition";
+        speakQuestion();
+      } else {
+        if (btnText) btnText.textContent = "Voice: OFF";
+        if (btnIcon) btnIcon.className = "fa-solid fa-volume-xmark text-slate-400";
+        if (voiceBtn) voiceBtn.className = "px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 rounded-xl text-sm font-bold flex items-center gap-2 transition";
+        stopSpeech();
+      }
+    }
+
+    function speakQuestion() {
+      if (!isVoiceEnabled || !('speechSynthesis' in window)) return;
+      stopSpeech();
+
+      const q = questions[currentIndex];
+      let textToRead = `Question ${currentIndex + 1}. ${q.question}. `;
+      q.options.forEach((opt, idx) => {
+        textToRead += `Option ${String.fromCharCode(65 + idx)}: ${opt}. `;
+      });
+
+      const utterance = new SpeechSynthesisUtterance(textToRead);
+      utterance.rate = 0.95;
+      utterance.pitch = 1.0;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function stopSpeech() {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    }
+
+    function toggleFontSize() {
+      isBigFont = !isBigFont;
+      const body = document.body;
+      const btnText = document.getElementById('fontBtnText');
+
+      if (isBigFont) {
+        body.classList.add('big-text-mode');
+        btnText.textContent = "Big Text: ON";
+      } else {
+        body.classList.remove('big-text-mode');
+        btnText.textContent = "Big Text: OFF";
+      }
+    }
+
+    function renderQuestion() {
+      stopSpeech();
+      resetTimer();
+      startTimer();
+
+      const q = questions[currentIndex];
+      
+      // Update Question Header Tags
+      document.getElementById('qBadge').textContent = `Question ${currentIndex + 1} / ${questions.length}`;
+      document.getElementById('questionText').textContent = q.question;
+      document.getElementById('diffBadge').textContent = q.level;
+      
+      if (q.level === "Medium") {
+        document.getElementById('diffBadge').className = "px-3 py-1 bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold text-xs rounded-lg uppercase tracking-wider";
+      } else {
+        document.getElementById('diffBadge').className = "px-3 py-1 bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 font-bold text-xs rounded-lg uppercase tracking-wider";
+      }
+
+      // Render Options
+      const optionsContainer = document.getElementById('optionsContainer');
+      optionsContainer.innerHTML = '';
+
+      const isAnswered = userAnswers[currentIndex] !== null;
+
+      q.options.forEach((opt, idx) => {
+        const btn = document.createElement('button');
+        btn.className = `option-btn w-full text-left p-5 rounded-2xl border font-bold transition-all flex items-center justify-between gap-4 shadow-sm `;
+        
+        if (!isAnswered) {
+          btn.className += `bg-slate-900 border-slate-800 hover:border-emerald-500/60 hover:bg-slate-800/80 text-slate-100 cursor-pointer`;
+          btn.onclick = () => selectOption(idx);
+        } else {
+          btn.disabled = true;
+          const userSel = userAnswers[currentIndex];
+          if (idx === q.correct) {
+            btn.className += `bg-emerald-500/20 border-emerald-500 text-emerald-200 font-extrabold`;
+          } else if (idx === userSel) {
+            btn.className += `bg-rose-500/20 border-rose-500 text-rose-200 font-extrabold`;
+          } else {
+            btn.className += `bg-slate-900/40 border-slate-800/60 text-slate-500 opacity-50`;
+          }
+        }
+
+        btn.innerHTML = `
+          <div class="flex items-center space-x-4">
+            <span class="option-badge shrink-0 rounded-full border-2 border-slate-600 flex items-center justify-center font-black text-slate-200 bg-slate-800">
+              ${String.fromCharCode(65 + idx)}
+            </span>
+            <span class="leading-relaxed text-slate-100">${opt}</span>
+          </div>
+          ${isAnswered && idx === q.correct ? '<i class="fa-solid fa-circle-check text-emerald-400 text-2xl"></i>' : ''}
+          ${isAnswered && idx === userAnswers[currentIndex] && idx !== q.correct ? '<i class="fa-solid fa-circle-xmark text-rose-400 text-2xl"></i>' : ''}
+        `;
+
+        optionsContainer.appendChild(btn);
+      });
+
+      // Feedback & Rationale Area
+      const feedbackContainer = document.getElementById('feedbackContainer');
+      const feedbackHeader = document.getElementById('feedbackHeader');
+      const rationaleText = document.getElementById('rationaleText');
+
+      if (isAnswered) {
+        clearInterval(timer);
+        feedbackContainer.classList.remove('hidden');
+        rationaleText.textContent = q.rationale;
+
+        const userSel = userAnswers[currentIndex];
+        if (userSel === q.correct) {
+          feedbackContainer.className = "mt-8 p-6 rounded-2xl border bg-emerald-500/10 border-emerald-500/30 text-emerald-100";
+          feedbackHeader.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-400"></i> <span>Correct Answer!</span>`;
+        } else {
+          feedbackContainer.className = "mt-8 p-6 rounded-2xl border bg-rose-500/10 border-rose-500/30 text-rose-100";
+          feedbackHeader.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-rose-400"></i> <span>Incorrect Answer</span>`;
+        }
+      } else {
+        feedbackContainer.classList.add('hidden');
+      }
+
+      // Reset Hint Area
+      document.getElementById('hintContainer').classList.add('hidden');
+      document.getElementById('hintText').textContent = q.hint;
+
+      // Enable/Disable Prev Button
+      document.getElementById('prevBtn').disabled = currentIndex === 0;
+
+      // Progress Bar
+      const progressPct = ((currentIndex + 1) / questions.length) * 100;
+      document.getElementById('progressBar').style.width = `${progressPct}%`;
+
+      if (isVoiceEnabled) {
+        speakQuestion();
+      }
+    }
+
+    function renderQuestion() {
+      resetTimer();
+      startTimer();
+
+      const q = questions[currentIndex];
+      
+      // Update Question Header Tags
+      document.getElementById('qBadge').textContent = `Question ${currentIndex + 1} / ${questions.length}`;
+      document.getElementById('questionText').textContent = q.question;
+      document.getElementById('diffBadge').textContent = q.level;
+      
+      if (q.level === "Medium") {
+        document.getElementById('diffBadge').className = "px-3 py-1 bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold text-xs rounded-lg uppercase tracking-wider";
+      } else {
+        document.getElementById('diffBadge').className = "px-3 py-1 bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 font-bold text-xs rounded-lg uppercase tracking-wider";
+      }
+
+      // Render Options
+      const optionsContainer = document.getElementById('optionsContainer');
+      optionsContainer.innerHTML = '';
+
+      const isAnswered = userAnswers[currentIndex] !== null;
+
+      q.options.forEach((opt, idx) => {
+        const btn = document.createElement('button');
+        btn.className = `option-btn w-full text-left p-5 rounded-2xl border font-bold transition-all flex items-center justify-between gap-4 shadow-sm `;
+        
+        if (!isAnswered) {
+          btn.className += `bg-slate-900 border-slate-800 hover:border-emerald-500/60 hover:bg-slate-800/80 text-slate-100 cursor-pointer`;
+          btn.onclick = () => selectOption(idx);
+        } else {
+          btn.disabled = true;
+          const userSel = userAnswers[currentIndex];
+          if (idx === q.correct) {
+            btn.className += `bg-emerald-500/20 border-emerald-500 text-emerald-200 font-extrabold`;
+          } else if (idx === userSel) {
+            btn.className += `bg-rose-500/20 border-rose-500 text-rose-200 font-extrabold`;
+          } else {
+            btn.className += `bg-slate-900/40 border-slate-800/60 text-slate-500 opacity-50`;
+          }
+        }
+
+        btn.innerHTML = `
+          <div class="flex items-center space-x-4">
+            <span class="option-badge shrink-0 rounded-full border-2 border-slate-600 flex items-center justify-center font-black text-slate-200 bg-slate-800">
+              ${String.fromCharCode(65 + idx)}
+            </span>
+            <span class="leading-relaxed text-slate-100">${opt}</span>
+          </div>
+          ${isAnswered && idx === q.correct ? '<i class="fa-solid fa-circle-check text-emerald-400 text-2xl"></i>' : ''}
+          ${isAnswered && idx === userAnswers[currentIndex] && idx !== q.correct ? '<i class="fa-solid fa-circle-xmark text-rose-400 text-2xl"></i>' : ''}
+        `;
+
+        optionsContainer.appendChild(btn);
+      });
+
+      // Feedback & Rationale Area
+      const feedbackContainer = document.getElementById('feedbackContainer');
+      const feedbackHeader = document.getElementById('feedbackHeader');
+      const rationaleText = document.getElementById('rationaleText');
+
+      if (isAnswered) {
+        clearInterval(timer);
+        feedbackContainer.classList.remove('hidden');
+        rationaleText.textContent = q.rationale;
+
+        const userSel = userAnswers[currentIndex];
+        if (userSel === q.correct) {
+          feedbackContainer.className = "mt-8 p-6 rounded-2xl border bg-emerald-500/10 border-emerald-500/30 text-emerald-100";
+          feedbackHeader.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-400"></i> <span>Correct Answer!</span>`;
+        } else {
+          feedbackContainer.className = "mt-8 p-6 rounded-2xl border bg-rose-500/10 border-rose-500/30 text-rose-100";
+          feedbackHeader.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-rose-400"></i> <span>Incorrect Answer</span>`;
+        }
+      } else {
+        feedbackContainer.classList.add('hidden');
+      }
+
+      // Reset Hint Area
+      document.getElementById('hintContainer').classList.add('hidden');
+      document.getElementById('hintText').textContent = q.hint;
+
+      // Enable/Disable Prev Button
+      document.getElementById('prevBtn').disabled = currentIndex === 0;
+
+      // Progress Bar
+      const progressPct = ((currentIndex + 1) / questions.length) * 100;
+      document.getElementById('progressBar').style.width = `${progressPct}%`;
+    }
+
+    function selectOption(index) {
+      if (userAnswers[currentIndex] !== null) return;
+
+      userAnswers[currentIndex] = index;
+      if (index === questions[currentIndex].correct) {
+        score++;
+      }
+
+      document.getElementById('scoreDisplay').textContent = `${score} / ${questions.length}`;
+      renderQuestion();
+      renderGrid();
+    }
+
+    function startTimer() {
+      timeLeft = 40;
+      updateTimerUI(timeLeft);
+
+      timer = setInterval(() => {
+        timeLeft--;
+        updateTimerUI(timeLeft);
+
+        // Play bomb timer ticking sound when last 15 seconds remain
+        if (timeLeft <= 15 && timeLeft > 0) {
+          playTickSound(timeLeft);
+        }
+
+        if (timeLeft <= 0) {
+          clearInterval(timer);
+          if (userAnswers[currentIndex] === null) {
+            userAnswers[currentIndex] = -1; // Mark question as expired/skipped
+          }
+          // Do NOT show the answer, directly load the next question
+          nextQuestion();
+        }
+      }, 1000);
+    }
+
+    function updateTimerUI(seconds) {
+      const display = document.getElementById('timerDisplay');
+      const ring = document.getElementById('timerRing');
+      const status = document.getElementById('timerStatus');
+
+      if (display) display.textContent = `${seconds}s`;
+
+      if (ring) {
+        // Calculate circular ring stroke offset (100 to 0)
+        const offset = 100 - (seconds / 40) * 100;
+        ring.setAttribute('stroke-dashoffset', offset);
+
+        if (seconds <= 15) {
+          ring.setAttribute('class', 'text-rose-500 transition-all duration-1000 ease-linear animate-pulse');
+          if (display) display.className = "absolute font-mono text-xs sm:text-sm font-extrabold text-rose-500 animate-pulse";
+          if (status) {
+            status.textContent = "Urgent!";
+            status.className = "text-xs font-bold text-rose-500 animate-pulse";
+          }
+        } else {
+          ring.setAttribute('class', 'text-amber-400 transition-all duration-1000 ease-linear');
+          if (display) display.className = "absolute font-mono text-xs sm:text-sm font-extrabold text-amber-400";
+          if (status) {
+            status.textContent = "Active";
+            status.className = "text-xs font-bold text-amber-400";
+          }
+        }
+      }
+    }
+
+    function resetTimer() {
+      if (timer) clearInterval(timer);
+    }
+
+    function nextQuestion() {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        renderQuestion();
+      } else {
+        showResults();
+      }
+    }
+
+    function prevQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderQuestion();
+      }
+    }
+
+    function toggleHint() {
+      const hintBox = document.getElementById('hintContainer');
+      hintBox.classList.toggle('hidden');
+    }
+
+    function renderGrid() {
+      const container = document.getElementById('gridContainer');
+      container.innerHTML = '';
+
+      questions.forEach((q, idx) => {
+        const btn = document.createElement('button');
+        btn.className = `w-10 h-10 sm:w-11 sm:h-11 rounded-xl font-black text-sm flex items-center justify-center transition border shadow-sm `;
+        
+        const ans = userAnswers[idx];
+        if (ans === null) {
+          btn.className += `bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700`;
+        } else if (ans === q.correct) {
+          btn.className += `bg-emerald-500 border-emerald-400 text-slate-950`;
+        } else {
+          btn.className += `bg-rose-500 border-rose-400 text-white`;
+        }
+
+        if (idx === currentIndex) {
+          btn.className += ` ring-4 ring-emerald-400/50 scale-105`;
+        }
+
+        btn.textContent = idx + 1;
+        btn.onclick = () => {
+          currentIndex = idx;
+          renderQuestion();
+          closeGridModal();
+        };
+
+        container.appendChild(btn);
+      });
+    }
+
+    function openGridModal() {
+      document.getElementById('gridModal').classList.remove('hidden');
+    }
+
+    function closeGridModal() {
+      document.getElementById('gridModal').classList.add('hidden');
+    }
+
+    function renderSolvedExercise() {
+      const list = document.getElementById('exerciseList');
+      list.innerHTML = '';
+
+      solvedExerciseData.forEach((item) => {
+        const card = document.createElement('div');
+        card.className = "p-6 rounded-2xl bg-slate-950/80 border border-slate-800";
+        card.innerHTML = `
+          <h4 class="text-lg font-black text-emerald-400 mb-2 flex items-start gap-2">
+            <span class="px-2 py-0.5 bg-emerald-500/20 rounded text-xs border border-emerald-500/30 font-bold shrink-0 mt-1">Q${item.num}</span>
+            <span>${item.q}</span>
+          </h4>
+          <p class="text-slate-300 text-base leading-relaxed font-medium pl-8">${item.ans}</p>
+        `;
+        list.appendChild(card);
+      });
+    }
+
+    function toggleExerciseModal() {
+      document.getElementById('exerciseModal').classList.toggle('hidden');
+    }
+
+    function showResults() {
+      stopSpeech();
+      resetTimer();
+      const pct = Math.round((score / questions.length) * 100);
+      document.getElementById('finalScore').textContent = `${score} / ${questions.length}`;
+      document.getElementById('finalPercentage').textContent = `${pct}% Accuracy`;
+
+      const verdict = document.getElementById('finalVerdict');
+      if (pct >= 85) {
+        verdict.textContent = "Excellent performance! You have mastered Class 9th Biology Chapter 5!";
+      } else if (pct >= 65) {
+        verdict.textContent = "Good effort! Review the missed questions to achieve a perfect 100%!";
+      } else {
+        verdict.textContent = "Keep revising the textbook concepts of Chapter 5 and try again!";
+      }
+
+      document.getElementById('resultsModal').classList.remove('hidden');
+    }
+
+    function closeResultsModal() {
+      document.getElementById('resultsModal').classList.add('hidden');
+    }
+
+    function restartQuiz() {
+      currentIndex = 0;
+      score = 0;
+      userAnswers = new Array(questions.length).fill(null);
+      document.getElementById('scoreDisplay').textContent = `0 / ${questions.length}`;
+      closeResultsModal();
+      renderQuestion();
+      renderGrid();
+    }
+  </script>
+</body>
+</html>
